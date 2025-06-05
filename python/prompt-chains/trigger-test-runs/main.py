@@ -7,7 +7,7 @@ from maxim.models.dataset import DataStructure
 
 dotenv.load_dotenv()
 
-client = Maxim({"base_url": "http://localhost:3000"})
+client = Maxim()
 
 list_of_urls: list[LocalData] = [
     {
