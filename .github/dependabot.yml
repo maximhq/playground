@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: uv
+    directory: /python/prompt-chains/trigger-test-runs
+    schedule:
+      interval: weekly
